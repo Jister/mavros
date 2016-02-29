@@ -5,22 +5,22 @@
 	<class name="sys_status" type="mavplugin::SystemStatusPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish system status.</description>
 	</class>
-	<class name="imu_pub" type="mavplugin::IMUPubPlugin" base_class_type="mavplugin::MavRosPlugin">
+	<!--class name="imu_pub" type="mavplugin::IMUPubPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish IMU data.</description>
-	</class>
+	</class-->
 	<class name="param" type="mavplugin::ParamPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Access to FCU parameters.</description>
 	</class>
-	<class name="waypoint" type="mavplugin::WaypointPlugin" base_class_type="mavplugin::MavRosPlugin">
+	<!--class name="waypoint" type="mavplugin::WaypointPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Access to FCU mission.</description>
 	</class>
 	<class name="rc_io" type="mavplugin::RCIOPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish RC IO state.</description>
-	</class>
+	</class-->
 	<class name="command" type="mavplugin::CommandPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Send commands to FCU.</description>
 	</class>
-	<class name="local_position" type="mavplugin::LocalPositionPlugin" base_class_type="mavplugin::MavRosPlugin">
+	<!--class name="local_position" type="mavplugin::LocalPositionPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish FCU local position.</description>
 	</class>
 	<class name="global_position" type="mavplugin::GlobalPositionPlugin" base_class_type="mavplugin::MavRosPlugin">
@@ -64,6 +64,6 @@
 	</class>
 	<class name="altitude" type="mavplugin::AltitudePlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish altitude values</description>
-	</class>
+	</class-->
 </library>
 

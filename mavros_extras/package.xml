@@ -30,6 +30,7 @@
   <depend>visualization_msgs</depend>
   <depend>urdf</depend>
   <depend>tf</depend>
+  <depend>vicon_bridge</depend>
 
   <export>
     <mavros plugin="${prefix}/mavros_plugins.xml" />
