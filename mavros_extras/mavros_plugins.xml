@@ -23,4 +23,8 @@
         <class name="cam_imu_sync" type="mavplugin::CamIMUSyncPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Publish camera trigger data for synchronisation of IMU and camera frames</description>
 	</class>
+
+	<class name="vicon" type="mavplugin::ViconPlugin" base_class_type="mavplugin::MavRosPlugin">
+		<description>Send vicon data to FCU</description>
+	</class>
 </library>
